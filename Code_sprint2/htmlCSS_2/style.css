@@ -1,0 +1,49 @@
+/*element selector, selected by tag name*/
+body{
+    background-color: greenyellow;
+    background-image: -moz-repeating-linear-gradient(5);
+    margin: 0px;
+}
+h1{
+    color: darkgreen;
+    font-size: 4rem;
+    font-family: Helvetica;
+}
+p{
+    color: darkblue;
+    font-size: 2rem;
+    font-style: italic;
+    font-family: Helvetica;
+    text-align: center;
+}
+img{
+    max-width: 1500px;
+}
+
+/* id selector, selected by id name, supposed to be unique*/
+#element{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    position: fixed;
+    top: 100px;
+    left: 1050px;
+    border-radius: 60%;
+}
+#potato{
+    width: 500px;
+    height: 150px;
+    background-color: rgb(255,255,0);
+    position: fixed;
+    top: 500px;
+    right: 500px;
+    border-radius: 50%;
+}
+/*classe selector, selected by class name, is not unique, can be added to several elements*/
+.specialbutton{
+    background-color: red;
+    position: fixed;
+    top: 50px;
+    left: 1200px;
+
+}

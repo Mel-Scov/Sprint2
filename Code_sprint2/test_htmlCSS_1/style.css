@@ -1,0 +1,35 @@
+/*element selector, selected by tag name*/
+body{
+    background-color: rgb(255, 0, 255);
+    background-image: -moz-repeating-linear-gradient(5);
+}
+h1{
+    color: aqua;
+    font-size: 4rem;
+}
+
+/* id selector, selected by id name, supposed to be unique*/
+#element{
+    width: 200px;
+    height: 100px;
+    opacity: 0.5;
+    background-color: rgb(255,0,0);
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    border-radius: 50%;
+}
+#potato{
+    width: 500px;
+    height: 150px;
+    background-color: rgb(255,255,0);
+    position: fixed;
+    top: 500px;
+    right: 500px;
+    border-radius: 60%;
+}
+/*classe selector, selected by class name, is not unique, can be added to several elements*/
+.specialbutton{
+    color:aquamarine;
+
+}

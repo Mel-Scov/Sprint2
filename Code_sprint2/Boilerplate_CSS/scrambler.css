@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'DINDong';
+    src: url('fonts/DINDong.woff2') format('woff2');
+  }
+* {
+   
+    font-family: 'DINDong', monospace !important;
+    font-size: 4 !important;
+    color: blue !important;
+    background-color: aquamarine !important;
+    border:5px double rgb(255, 0, 255) !important;
+    background-blend-mode: overlay !important;
+    border-radius: 50%;
+
+
+}
+
